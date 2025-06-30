@@ -1,6 +1,7 @@
 .calculator {
   width: 325px;
   margin: auto;
+  margin-top: 50px;
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 10px;

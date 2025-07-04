@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to Reactjs Calculator
+***
 
-## Available Scripts
+## Task
+TODO - What is the problem? And where is the challenge?
 
-In the project directory, you can run:
+Create a single route ReactJS application. Application should be able to perform all simple operations like:
++-/*. It should display result of operation and should be able to clear the buffer.
 
-### `npm start`
+Project should be hosted in the cloud (AWS/Gcloud/Azure/Netlify/...)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
+TODO - How have you solved the problem?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is a simple calculator build using ReactJS and styled with CSS. 
+It uses the useState to manage user input and display. It uses mathjs library to evaluate mathematical expressions.
+The calculator is made in single component Calculator.js that:
+    - renders the UI for digits and operations;
+    - handles button click event;
+    - evaluates expressions and updates the display;
+    - clears the input.
 
-### `npm test`
+Design is made in App.css file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As I couldn't make it run in Do Code, I worked on the code of calculator locally on my pc in VS code and 
+saved my work on my github account. Calculator repository: https://github.com/dainisstrumpe/calculator
 
-### `npm run build`
+## Installation
+TODO - How to install your project? npm install? make? make re?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project is hosted:
+https://spectacular-fox-a7babd.netlify.app/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+TODO - How does it work?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+When calculator runs click on numbers and operators in sequence like: 1 + 3
+then click on =
+result should show 4.
+To clear the calculator display click C
 
-### `npm run eject`
+### The Core Team
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
